@@ -1,0 +1,170 @@
+2026-05-19T10:36:32: (node:21155) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:32: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:32: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: node:internal/modules/run_main:123
+2026-05-19T10:36:32:     triggerUncaughtException(
+2026-05-19T10:36:32:     ^
+2026-05-19T10:36:32: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:32: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:32:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:32:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:32:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:32:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:32:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:32:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: Node.js v22.22.3
+2026-05-19T10:36:32: (node:21162) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:32: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:32: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: node:internal/modules/run_main:123
+2026-05-19T10:36:32:     triggerUncaughtException(
+2026-05-19T10:36:32:     ^
+2026-05-19T10:36:32: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:32: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:32:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:32:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:32:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:32:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:32:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:32:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: Node.js v22.22.3
+2026-05-19T10:36:32: (node:21163) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:32: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:32: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: node:internal/modules/run_main:123
+2026-05-19T10:36:32:     triggerUncaughtException(
+2026-05-19T10:36:32:     ^
+2026-05-19T10:36:32: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:32: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:32:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:32:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:32:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:32:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:32:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:32:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: Node.js v22.22.3
+2026-05-19T10:36:32: (node:21164) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:32: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:32: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: node:internal/modules/run_main:123
+2026-05-19T10:36:32:     triggerUncaughtException(
+2026-05-19T10:36:32:     ^
+2026-05-19T10:36:32: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:32: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:32:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:32:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:32:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:32:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:32:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:32:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:32: 
+2026-05-19T10:36:32: Node.js v22.22.3
+2026-05-19T10:36:33: (node:21165) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:33: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:33: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:33: 
+2026-05-19T10:36:33: node:internal/modules/run_main:123
+2026-05-19T10:36:33:     triggerUncaughtException(
+2026-05-19T10:36:33:     ^
+2026-05-19T10:36:33: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:33: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:33:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:33:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:33:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:33:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:33:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:33:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:33: 
+2026-05-19T10:36:33: Node.js v22.22.3
+2026-05-19T10:36:33: (node:21166) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:33: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:33: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:33: 
+2026-05-19T10:36:33: node:internal/modules/run_main:123
+2026-05-19T10:36:33:     triggerUncaughtException(
+2026-05-19T10:36:33:     ^
+2026-05-19T10:36:33: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:33: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:33:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:33:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:33:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:33:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:33:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:33:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:33: 
+2026-05-19T10:36:33: Node.js v22.22.3
+2026-05-19T10:36:34: (node:21170) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:34: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:34: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:34: 
+2026-05-19T10:36:34: node:internal/modules/run_main:123
+2026-05-19T10:36:34:     triggerUncaughtException(
+2026-05-19T10:36:34:     ^
+2026-05-19T10:36:34: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:34: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:34:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:34:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:34:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:34:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:34:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:34:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:34: 
+2026-05-19T10:36:34: Node.js v22.22.3
+2026-05-19T10:36:36: (node:21171) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:36: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:36: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:36: 
+2026-05-19T10:36:36: node:internal/modules/run_main:123
+2026-05-19T10:36:36:     triggerUncaughtException(
+2026-05-19T10:36:36:     ^
+2026-05-19T10:36:36: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:36: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:36:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:36:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:36:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:36:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:36:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:36:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:36: 
+2026-05-19T10:36:36: Node.js v22.22.3
+2026-05-19T10:36:37: (node:21172) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:37: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:37: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:37: 
+2026-05-19T10:36:37: node:internal/modules/run_main:123
+2026-05-19T10:36:37:     triggerUncaughtException(
+2026-05-19T10:36:37:     ^
+2026-05-19T10:36:37: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:37: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:37:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:37:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:37:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:37:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:37:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:37:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:37: 
+2026-05-19T10:36:37: Node.js v22.22.3
+2026-05-19T10:36:40: (node:21175) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+2026-05-19T10:36:40: --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("tsx/esm", pathToFileURL("./"));'
+2026-05-19T10:36:40: (Use `node --trace-warnings ...` to show where the warning was created)
+2026-05-19T10:36:40: 
+2026-05-19T10:36:40: node:internal/modules/run_main:123
+2026-05-19T10:36:40:     triggerUncaughtException(
+2026-05-19T10:36:40:     ^
+2026-05-19T10:36:40: Error: tsx must be loaded with --import instead of --loader
+2026-05-19T10:36:40: The --loader flag was deprecated in Node v20.6.0 and v18.19.0
+2026-05-19T10:36:40:     at initialize (file:///Users/exmachina/deus/node_modules/tsx/dist/register-Ddio2Vih.mjs:1:1024)
+2026-05-19T10:36:40:     at Hooks.addCustomLoader (node:internal/modules/esm/hooks:183:24)
+2026-05-19T10:36:40:     at Hooks.register (node:internal/modules/esm/hooks:157:16)
+2026-05-19T10:36:40:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-19T10:36:40:     at async initializeHooks (node:internal/modules/esm/utils:325:5)
+2026-05-19T10:36:40:     at async customizedModuleWorker (node:internal/modules/esm/worker:109:13)
+2026-05-19T10:36:40: 
+2026-05-19T10:36:40: Node.js v22.22.3

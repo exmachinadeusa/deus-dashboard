@@ -1,0 +1,11 @@
+{
+  "$schema": "https://railway.schema.json",
+  "build": {
+    "builder": "dockerfile",
+    "buildCommand": "npm install"
+  },
+  "deploy": {
+    "restartPolicyMaxRetries": 5,
+    "startCommand": "node dashboard-server.js"
+  }
+}

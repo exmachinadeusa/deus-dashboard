@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEUS Mission Control — Sunnyvale</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a0f0a;display:flex;justify-content:center;align-items:flex-start;min-height:100vh;padding:20px;font-family:'Press Start 2P',monospace}
+.mc{background:#0d1a0d;border-radius:12px;overflow:hidden;border:2px solid #2a4a2a;width:100%;max-width:900px}
+.mc-header{background:#1a2e1a;border-bottom:2px solid #2d4d2d;padding:12px 20px;display:flex;align-items:center;gap:12px}
+.mc-title{color:#7fff00;font-size:11px;letter-spacing:1px}
+.live-dot{width:10px;height:10px;border-radius:50%;background:#7fff00;box-shadow:0 0 8px #7fff00;animation:pulse 1.5s infinite;flex-shrink:0}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+.mc-sub{color:#4a7a4a;font-size:7px;margin-top:5px}
+.agents-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;padding:2px;background:#0a140a}
+.agent-card{background:#111d11;padding:14px 10px;cursor:pointer;transition:background 0.15s;border:1px solid #1e3a1e;position:relative}
+.agent-card:hover{background:#162816;border-color:#3a6a3a}
+.agent-avatar{width:100%;height:70px;margin-bottom:10px;display:block}
+.agent-name{color:#e8ff9a;font-size:8px;margin-bottom:5px}
+.agent-role{color:#5a8a5a;font-size:6px;margin-bottom:8px;line-height:1.6}
+.agent-status{display:flex;align-items:center;gap:5px}
+.status-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.status-online{background:#7fff00;box-shadow:0 0 5px #7fff00}
+.status-busy{background:#ffaa00;box-shadow:0 0 5px #ffaa00;animation:pulse 1s infinite}
+.status-local{background:#00bfff;box-shadow:0 0 5px #00bfff}
+.status-text{font-size:6px;color:#4a7a4a}
+.agent-tier{position:absolute;top:8px;right:8px;font-size:6px;padding:3px 5px;border-radius:3px}
+.tier-local{background:#0d2a1a;color:#00bfff;border:1px solid #00bfff}
+.tier-cloud{background:#1a1a2a;color:#9a7aff;border:1px solid #9a7aff}
+.tier-sched{background:#2a1a0a;color:#ffaa00;border:1px solid #ffaa00}
+.tier-rules{background:#1a0a0a;color:#ff6060;border:1px solid #ff6060}
+.ticker-wrap{background:#0a140a;border-top:2px solid #1e3a1e;overflow:hidden;height:30px;display:flex;align-items:center}
+.ticker{color:#4aaa4a;font-size:7px;white-space:nowrap;animation:scroll 32s linear infinite;padding-left:100%}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+.cost-bar{background:#0a140a;padding:10px 16px;display:flex;gap:16px;flex-wrap:wrap;font-size:6px;border-top:1px solid #1e3a1e}
+.cost-item{display:flex;align-items:center;gap:5px}
+.cost-label{color:#4a7a4a}
+.cost-val{color:#a0cc80}
+.prompts{background:#0d1a0d;padding:14px;border-top:2px solid #1e3a1e}
+.prompt-title{color:#7fff00;font-size:8px;margin-bottom:12px}
+.prompt-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.prompt-btn{background:#111d11;border:1px solid #2a4a2a;color:#a0cc80;font-size:6px;font-family:'Press Start 2P',monospace;padding:10px 8px;cursor:pointer;border-radius:4px;text-align:left;transition:background 0.15s;line-height:1.7}
+.prompt-btn:hover{background:#162816;border-color:#4a8a4a;color:#c8e8a0}
+.pb-icon{color:#7fff00;display:block;margin-bottom:4px;font-size:7px}
+</style>
+</head>
+<body>
+<div class="mc">
+  <div class="mc-header">
+    <div class="live-dot"></div>
+    <div>
+      <div class="mc-title">⚡ DEUS MISSION CONTROL</div>
+      <div class="mc-sub">SUNNYVALE TRAILER PARK OPERATIONS CENTER — v2.0</div>
+    </div>
+  </div>
+
+  <div class="agents-grid">
+
+    <div class="agent-card" onclick="alert('JULIAN: Haftalık öğrenme — Pazar 03:00')">
+      <span class="agent-tier tier-cloud">SONNET</span>
+      <svg class="agent-avatar" viewBox="0 0 80 60">
+        <rect x="28" y="4" width="24" height="24" fill="#1a1a2a" rx="2"/>
+        <rect x="32" y="8" width="16" height="12" fill="#c8a87a"/>
+        <rect x="34" y="20" width="12" height="4" fill="#c8a87a"/>
+        <rect x="24" y="28" width="32" height="22" fill="#222233"/>
+        <rect x="20" y="32" width="8" height="14" fill="#222233"/>
+        <rect x="52" y="32" width="8" height="14" fill="#222233"/>
+        <rect x="48" y="36" width="14" height="9" fill="#8a6a3a" rx="2"/>
+        <circle cx="54" cy="40" r="4" fill="#d4a855"/>
+        <rect x="34" y="10" width="4" height="3" fill="#4a3a2a"/>
+        <rect x="42" y="10" width="4" height="3" fill="#4a3a2a"/>
+      </svg>
+      <div class="agent-name">JULIAN</div>
+      <div class="agent-role">Komutan / Haftalık Öğrenme</div>
+      <div class="agent-status">
+        <div class="status-dot status-busy"></div>
+        <div class="status-text">PAZAR 03:00 AKTİF</div>
+      </div>
+    </div>
+
+    <div class="agent-card" onclick="alert('RICKY: İşlem operatörü — 7/24 Ollama $0')">
+      <span class="agent-tier tier-local">LOKAL</span>
+      <svg class="agent-avatar" viewBox="0 0 80 60">
+        <rect x="28" y="4" width="24" height="24" fill="#2a4a1a" rx="2"/>
+        <rect x="32" y="8" width="16" height="12" fill="#d4a87a"/>
+        <rect x="30" y="4" width="20" height="6" fill="#4a7a2a"/>
+        <rect x="26" y="8" width="4" height="16" fill="#8a6040"/>
+        <rect x="50" y="8" width="4" height="16" fill="#8a6040"/>
+        <rect x="24" y="28" width="32" height="22" fill="#3a6a1a"/>
+        <rect x="20" y="32" width="8" height="14" fill="#3a6a1a"/>
+        <rect x="52" y="32" width="8" height="14" fill="#3a6a1a"/>
+        <rect x="34" y="10" width="4" height="3" fill="#4a3a2a"/>
+        <rect x="42" y="10" width="4" height="3" fill="#4a3a2a"/>
+        <rect x="36" y="15" width="8" height="2" fill="#d4a87a"/>
+      </svg>
+      <div class="agent-name">RICKY</div>
+      <div class="agent-role">İşlem Ops / qwen2.5:7b</div>
+      <div class="agent-status">
+        <div class="status-dot status-online"></div>
+        <div class="status-text">7/24 ONLINE — $0</div>
+      </div>
+    </div>
+
+    <div class="agent-card" onclick="alert('BUBBLES: Dekont OCR — Claude Haiku Vision')">
+      <span class="agent-tier tier-cloud">HAIKU</span>
+      <svg class="agent-avatar" viewBox="0 0 80 60">
+        <rect x="28" y="4" width="24" height="24" fill="#2a1a4a" rx="2"/>
+        <rect x="32" y="8" width="16" height="12" fill="#d4b08a"/>
+        <rect x="28" y="10" width="9" height="7" fill="#1a1a3a" rx="1"/>
+        <rect x="43" y="10" width="9" height="7" fill="#1a1a3a" rx="1"/>
+        <rect x="37" y="12" width="6" height="1.5" fill="#1a1a3a"/>
+        <rect x="24" y="28" width="32" height="22" fill="#3a2a5a"/>
+        <rect x="20" y="32" width="8" height="14" fill="#3a2a5a"/>
+        <rect x="52" y="32" width="8" height="14" fill="#3a2a5a"/>
+        <rect x="54" y="36" width="9" height="7" fill="#c8a060" rx="1"/>
+        <circle cx="58" cy="39" r="3.5" fill="#e8c880"/>
+        <rect x="30" y="10" width="5" height="5" fill="#7a9aff" rx="1"/>
+        <rect x="45" y="10" width="5" height="5" fill="#7a9aff" rx="1"/>
+      </svg>
+      <div class="agent-name">BUBBLES</div>
+      <div class="agent-role">Dekont OCR / Claude Vision</div>
+      <div class="agent-status">
+        <div class="status-dot status-local"></div>
+        <div class="status-text">ON-DEMAND</div>
+      </div>
+    </div>
+
+    <div class="agent-card" onclick="alert('RANDY: Güvenlik — Kural motoru $0')">
+      <span class="agent-tier tier-rules">RULES</span>
+      <svg class="agent-avatar" viewBox="0 0 80 60">
+        <rect x="28" y="4" width="24" height="24" fill="#3a1a0a" rx="2"/>
+        <rect x="30" y="8" width="20" height="14" fill="#d4a07a"/>
+        <rect x="22" y="24" width="36" height="26" fill="#d4a07a"/>
+        <rect x="18" y="30" width="8" height="16" fill="#d4a07a"/>
+        <rect x="54" y="30" width="8" height="16" fill="#d4a07a"/>
+        <rect x="28" y="36" width="24" height="12" fill="#c49070"/>
+        <rect x="34" y="10" width="4" height="3" fill="#4a3020"/>
+        <rect x="42" y="10" width="4" height="3" fill="#4a3020"/>
+        <rect x="35" y="16" width="10" height="2" fill="#c48060"/>
+      </svg>
+      <div class="agent-name">RANDY</div>
+      <div class="agent-role">Güvenlik / Kural Motoru</div>
+      <div class="agent-status">
+        <div class="status-dot status-online"></div>
+        <div class="status-text">7/24 ANLИК — $0</div>
+      </div>
+    </div>
+
+    <div class="agent-card" onclick="alert('BAY LAHEY: Gece mutabakatı — 00:05 cron')">
+      <span class="agent-tier tier-sched">CRON</span>
+      <svg class="agent-avatar" viewBox="0 0 80 60">
+        <rect x="28" y="4" width="24" height="24" fill="#2a1a1a" rx="2"/>
+        <rect x="32" y="8" width="16" height="14" fill="#c8a080"/>
+        <rect x="30" y="4" width="20" height="5" fill="#3a2a1a"/>
+        <rect x="24" y="28" width="32" height="22" fill="#4a2a1a"/>
+        <rect x="20" y="32" width="8" height="14" fill="#4a2a1a"/>
+        <rect x="52" y="32" width="8" height="14" fill="#4a2a1a"/>
+        <rect x="34" y="10" width="4" height="3" fill="#3a2a1a"/>
+        <rect x="42" y="10" width="4" height="3" fill="#3a2a1a"/>
+        <circle cx="40" cy="17" r="3" fill="#aa3030"/>
+        <rect x="50" y="33" width="12" height="9" fill="#8a4a1a" rx="2"/>
+      </svg>
+      <div class="agent-name">BAY LAHEY</div>
+      <div class="agent-role">Denetim / Gece 00:05 Cron</div>
+      <div class="agent-status">
+        <div class="status-dot status-busy"></div>
+        <div class="status-text">GECE 00:05 BEKLENIYOR</div>
+      </div>
+    </div>
+
+    <div class="agent-card" onclick="alert('J-ROC: KB yönetimi — Ollama $0')">
+      <span class="agent-tier tier-local">LOKAL</span>
+      <svg class="agent-avatar" viewBox="0 0 80 60">
+        <rect x="28" y="4" width="24" height="24" fill="#1a1a2a" rx="2"/>
+        <rect x="32" y="8" width="16" height="14" fill="#8a6a4a"/>
+        <rect x="26" y="4" width="28" height="7" fill="#1a1a1a" rx="2"/>
+        <rect x="24" y="28" width="32" height="22" fill="#2a2a4a"/>
+        <rect x="20" y="32" width="8" height="14" fill="#2a2a4a"/>
+        <rect x="52" y="32" width="8" height="14" fill="#2a2a4a"/>
+        <rect x="34" y="10" width="4" height="3" fill="#3a2a1a"/>
+        <rect x="42" y="10" width="4" height="3" fill="#3a2a1a"/>
+        <rect x="36" y="16" width="8" height="2" fill="#d4a060"/>
+        <rect x="52" y="36" width="10" height="7" fill="#4a4a6a" rx="1"/>
+      </svg>
+      <div class="agent-name">J-ROC</div>
+      <div class="agent-role">KB Yönetimi / Müşteri Destek</div>
+      <div class="agent-status">
+        <div class="status-dot status-online"></div>
+        <div class="status-text">7/24 — OLLAMA $0</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ticker-wrap">
+    <div class="ticker">
+      🟢 DEUS ONLINE — @DEUSMACHINAOps_Bot aktif &nbsp;●&nbsp;
+      💰 HEDEF: %80 işlem Ollama ile — $0 maliyet &nbsp;●&nbsp;
+      📊 Sabah 08:00 günlük rapor admin grubuna gidecek &nbsp;●&nbsp;
+      🔒 Randy kara liste kontrolü: ANLИК &nbsp;●&nbsp;
+      📚 Knowledge Base: /ogret ile öğret &nbsp;●&nbsp;
+      ⏰ Lahey gece mutabakatı: 00:05 &nbsp;●&nbsp;
+      🧠 Julian haftalık öğrenme: Pazar 03:00 &nbsp;●&nbsp;
+      🎤 J-Roc: "Know what I mean, bud? Bot çalışıyor." &nbsp;●&nbsp;
+    </div>
+  </div>
+
+  <div class="cost-bar">
+    <div class="cost-item"><span class="cost-label">OLLAMA:</span><span class="cost-val">$0/ay</span></div>
+    <div class="cost-item"><span class="cost-label">HAIKU:</span><span class="cost-val">~$3/ay</span></div>
+    <div class="cost-item"><span class="cost-label">SONNET:</span><span class="cost-val">~$2/ay</span></div>
+    <div class="cost-item"><span class="cost-label">HEDEF:</span><span class="cost-val" style="color:#7fff00">~$5/ay</span></div>
+    <div class="cost-item" style="margin-left:auto"><span class="cost-label">OPUS:</span><span class="cost-val" style="color:#ff4444">YASAK ❌</span></div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+// ============================================================
+// DEUS — Ollama Yerel LLM Client
+// src/ai/ollama.ts
+//
+// Hızlı/ücretsiz intent detection + KB cevap adaptasyonu.
+// Ollama yoksa Claude'a düşer.
+// ============================================================
+
+import { log } from "../index.js";
+import { callClaude, MODEL_HAIKU } from "./router.js";
+
+const BASE_URL = process.env.OLLAMA_BASE_URL ?? "http://localhost:11434";
+const MODEL = process.env.OLLAMA_MODEL ?? "llama3.2:3b";
+
+export async function ollamaAvailable(): Promise<boolean> {
+  try {
+    const res = await fetch(`${BASE_URL}/api/tags`, {
+      signal: AbortSignal.timeout(1500),
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function ollamaChat(prompt: string, system?: string): Promise<string | null> {
+  try {
+    const res = await fetch(`${BASE_URL}/api/chat`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: MODEL,
+        stream: false,
+        messages: [
+          ...(system ? [{ role: "system", content: system }] : []),
+          { role: "user", content: prompt },
+        ],
+        options: { temperature: 0.2, num_predict: 400 },
+      }),
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { message?: { content?: string } };
+    return data.message?.content ?? null;
+  } catch (err) {
+    log.warn({ err }, "Ollama çağrısı başarısız");
+    return null;
+  }
+}
+
+// ── INTENT DETECTION ──────────────────────────────────────────
+
+export type IntentCategory =
+  | "deposit"
+  | "withdrawal"
+  | "account"
+  | "bonus"
+  | "general"
+  | "complaint"
+  | "unknown";
+
+export interface IntentResult {
+  category: IntentCategory;
+  confidence: number;
+  keywords: string[];
+}
+
+const INTENT_SYSTEM = `Sen DEUS botunun niyet tespit modülüsün.
+Kullanıcı mesajını oku, hangi kategoriye girdiğine karar ver.
+Kategoriler: deposit, withdrawal, account, bonus, general, complaint, unknown.
+
+SADECE JSON döndür, başka hiçbir şey yazma:
+{"category":"...","confidence":0.0-1.0,"keywords":["..."]}`;
+
+export async function detectIntent(message: string): Promise<IntentResult> {
+  const prompt = `Mesaj: "${message}"`;
+
+  // Önce Ollama dene
+  if (await ollamaAvailable()) {
+    const raw = await ollamaChat(prompt, INTENT_SYSTEM);
+    if (raw) {
+      const parsed = tryParseIntent(raw);
+      if (parsed) return parsed;
+    }
+  }
+
+  // Fallback: Claude Haiku
+  try {
+    const raw = await callClaude(prompt, {
+      system: INTENT_SYSTEM,
+      model: MODEL_HAIKU,
+      maxTokens: 200,
+      temperature: 0.1,
+    });
+    const parsed = tryParseIntent(raw);
+    if (parsed) return parsed;
+  } catch (err) {
+    log.warn({ err }, "Intent detection Claude da başarısız");
+  }
+
+  return { category: "unknown", confidence: 0, keywords: [] };
+}
+
+function tryParseIntent(raw: string): IntentResult | null {
+  const match = raw.match(/\{[\s\S]*\}/);
+  if (!match) return null;
+  try {
+    const obj = JSON.parse(match[0]);
+    return {
+      category: (obj.category as IntentCategory) ?? "unknown",
+      confidence: Number(obj.confidence ?? 0),
+      keywords: Array.isArray(obj.keywords) ? obj.keywords : [],
+    };
+  } catch {
+    return null;
+  }
+}
+
+// ── KB CEVAP ADAPTASYONU ──────────────────────────────────────
+
+const ADAPT_SYSTEM = `Sen DEUS botusun. Türkiye bahis pazarında müşteri desteği veriyorsun.
+Sana verilen şablon cevabı kullanıcının mesaj tonuna göre uyarla.
+- Türkçe, samimi ama profesyonel
+- Emoji minimum (sadece durum bildirimi)
+- Müşteri sinirli → anlayışlı, çözüm odaklı
+- Müşteri kararsız → yönlendirici
+- Müşteri memnun → kısa, pozitif kapatış
+
+Sadece uyarlanmış cevabı yaz. Açıklama yapma.`;
+
+export async function adaptKbAnswer(
+  userMessage: string,
+  kbTemplate: string,
+  variables: Record<string, unknown> = {}
+): Promise<string> {
+  // Önce template'deki {{var}}'leri doldur
+  let filled = kbTemplate;
+  for (const [k, v] of Object.entries(variables)) {
+    filled = filled.replaceAll(`{{${k}}}`, String(v));
+  }
+
+  const prompt = `Kullanıcı mesajı: "${userMessage}"\n\nŞablon cevap:\n${filled}\n\nUyarla:`;
+
+  // Önce Ollama dene
+  if (await ollamaAvailable()) {
+    const raw = await ollamaChat(prompt, ADAPT_SYSTEM);
+    if (raw && raw.length > 10) return raw.trim();
+  }
+
+  // Fallback: Claude
+  try {
+    const raw = await callClaude(prompt, {
+      system: ADAPT_SYSTEM,
+      model: MODEL_HAIKU,
+      maxTokens: 500,
+      temperature: 0.5,
+    });
+    return raw.trim();
+  } catch {
+    // En kötü ihtimal: ham şablonu döndür
+    return filled;
+  }
+}

@@ -1,0 +1,361 @@
+2026-05-19T10:36:46: ◇ injected env (17) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-05-19T10:36:46: [13:36:46] [32mINFO[39m (21189): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:46: [13:36:46] [32mINFO[39m (21189): [36m🔒 Database[39m
+2026-05-19T10:36:46:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:46: [13:36:46] [31mERROR[39m (21189): [36m❌ Fatal[39m
+2026-05-19T10:36:46:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:47: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T10:36:47: [13:36:47] [32mINFO[39m (21197): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:47: [13:36:47] [32mINFO[39m (21197): [36m🔒 Database[39m
+2026-05-19T10:36:47:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:48: [13:36:48] [31mERROR[39m (21197): [36m❌ Fatal[39m
+2026-05-19T10:36:48:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:48: ◇ injected env (17) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-05-19T10:36:48: [13:36:48] [32mINFO[39m (21198): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:48: [13:36:48] [32mINFO[39m (21198): [36m🔒 Database[39m
+2026-05-19T10:36:48:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:49: [13:36:49] [31mERROR[39m (21198): [36m❌ Fatal[39m
+2026-05-19T10:36:49:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:49: ◇ injected env (17) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-05-19T10:36:49: [13:36:49] [32mINFO[39m (21199): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:49: [13:36:49] [32mINFO[39m (21199): [36m🔒 Database[39m
+2026-05-19T10:36:49:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:50: [13:36:50] [31mERROR[39m (21199): [36m❌ Fatal[39m
+2026-05-19T10:36:50:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:50: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T10:36:50: [13:36:50] [32mINFO[39m (21202): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:50: [13:36:50] [32mINFO[39m (21202): [36m🔒 Database[39m
+2026-05-19T10:36:50:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:51: [13:36:51] [31mERROR[39m (21202): [36m❌ Fatal[39m
+2026-05-19T10:36:51:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:52: ◇ injected env (17) from .env // tip: ⌘ enable debugging { debug: true }
+2026-05-19T10:36:52: [13:36:52] [32mINFO[39m (21203): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:52: [13:36:52] [32mINFO[39m (21203): [36m🔒 Database[39m
+2026-05-19T10:36:52:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:52: [13:36:52] [31mERROR[39m (21203): [36m❌ Fatal[39m
+2026-05-19T10:36:52:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:53: ◇ injected env (17) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-05-19T10:36:53: [13:36:53] [32mINFO[39m (21206): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:53: [13:36:53] [32mINFO[39m (21206): [36m🔒 Database[39m
+2026-05-19T10:36:53:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:54: [13:36:54] [31mERROR[39m (21206): [36m❌ Fatal[39m
+2026-05-19T10:36:54:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:55: ◇ injected env (17) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+2026-05-19T10:36:55: [13:36:55] [32mINFO[39m (21209): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:55: [13:36:55] [32mINFO[39m (21209): [36m🔒 Database[39m
+2026-05-19T10:36:55:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:56: [13:36:56] [31mERROR[39m (21209): [36m❌ Fatal[39m
+2026-05-19T10:36:56:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:36:58: ◇ injected env (17) from .env // tip: ⌘ override existing { override: true }
+2026-05-19T10:36:58: [13:36:58] [32mINFO[39m (21210): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:36:58: [13:36:58] [32mINFO[39m (21210): [36m🔒 Database[39m
+2026-05-19T10:36:58:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:36:59: [13:36:59] [31mERROR[39m (21210): [36m❌ Fatal[39m
+2026-05-19T10:36:59:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:37:01: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T10:37:01: [13:37:01] [32mINFO[39m (21211): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:37:01: [13:37:01] [32mINFO[39m (21211): [36m🔒 Database[39m
+2026-05-19T10:37:01:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:37:02: [13:37:02] [31mERROR[39m (21211): [36m❌ Fatal[39m
+2026-05-19T10:37:02:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:37:06: ◇ injected env (17) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-05-19T10:37:06: [13:37:06] [32mINFO[39m (21212): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:37:06: [13:37:06] [32mINFO[39m (21212): [36m🔒 Database[39m
+2026-05-19T10:37:06:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:37:07: [13:37:07] [31mERROR[39m (21212): [36m❌ Fatal[39m
+2026-05-19T10:37:07:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:37:13: ◇ injected env (17) from .env // tip: ⌘ override existing { override: true }
+2026-05-19T10:37:13: [13:37:13] [32mINFO[39m (21215): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:37:13: [13:37:13] [32mINFO[39m (21215): [36m🔒 Database[39m
+2026-05-19T10:37:13:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:37:14: [13:37:14] [31mERROR[39m (21215): [36m❌ Fatal[39m
+2026-05-19T10:37:14:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:37:22: ◇ injected env (17) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+2026-05-19T10:37:22: [13:37:22] [32mINFO[39m (21216): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:37:22: [13:37:22] [32mINFO[39m (21216): [36m🔒 Database[39m
+2026-05-19T10:37:22:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:37:23: [13:37:23] [31mERROR[39m (21216): [36m❌ Fatal[39m
+2026-05-19T10:37:23:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:37:36: ◇ injected env (17) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-05-19T10:37:36: [13:37:36] [32mINFO[39m (21221): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:37:36: [13:37:36] [32mINFO[39m (21221): [36m🔒 Database[39m
+2026-05-19T10:37:36:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:37:37: [13:37:37] [31mERROR[39m (21221): [36m❌ Fatal[39m
+2026-05-19T10:37:37:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:37:52: ◇ injected env (17) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-05-19T10:37:52: [13:37:52] [32mINFO[39m (21225): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:37:52: [13:37:52] [32mINFO[39m (21225): [36m🔒 Database[39m
+2026-05-19T10:37:52:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:37:53: [13:37:53] [31mERROR[39m (21225): [36m❌ Fatal[39m
+2026-05-19T10:37:53:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:38:08: ◇ injected env (17) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+2026-05-19T10:38:08: [13:38:08] [32mINFO[39m (21228): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:38:08: [13:38:08] [32mINFO[39m (21228): [36m🔒 Database[39m
+2026-05-19T10:38:08:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:38:09: [13:38:09] [31mERROR[39m (21228): [36m❌ Fatal[39m
+2026-05-19T10:38:09:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:38:24: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T10:38:24: [13:38:24] [32mINFO[39m (21232): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:38:24: [13:38:24] [32mINFO[39m (21232): [36m🔒 Database[39m
+2026-05-19T10:38:24:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:38:25: [13:38:25] [31mERROR[39m (21232): [36m❌ Fatal[39m
+2026-05-19T10:38:25:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:38:40: ◇ injected env (17) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-05-19T10:38:40: [13:38:40] [32mINFO[39m (21241): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:38:40: [13:38:40] [32mINFO[39m (21241): [36m🔒 Database[39m
+2026-05-19T10:38:40:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:38:41: [13:38:41] [31mERROR[39m (21241): [36m❌ Fatal[39m
+2026-05-19T10:38:41:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:38:56: ◇ injected env (17) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-05-19T10:38:56: [13:38:56] [32mINFO[39m (21245): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:38:56: [13:38:56] [32mINFO[39m (21245): [36m🔒 Database[39m
+2026-05-19T10:38:56:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:38:57: [13:38:57] [31mERROR[39m (21245): [36m❌ Fatal[39m
+2026-05-19T10:38:57:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T10:39:12: ◇ injected env (17) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+2026-05-19T10:39:12: [13:39:12] [32mINFO[39m (21248): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T10:39:12: [13:39:12] [32mINFO[39m (21248): [36m🔒 Database[39m
+2026-05-19T10:39:12:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T10:39:12: [13:39:12] [31mERROR[39m (21248): [36m❌ Fatal[39m
+2026-05-19T10:39:12:     err: "Call to 'getMe' failed! (400: Logged out)"
+2026-05-19T11:47:12: ◇ injected env (17) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+2026-05-19T11:47:12: [14:47:12] [32mINFO[39m (22533): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:47:12: [14:47:12] [32mINFO[39m (22533): [36m🔒 Database[39m
+2026-05-19T11:47:12:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:47:12: [14:47:12] [32mINFO[39m (22533): [36m✅ Bot kimliği[39m
+2026-05-19T11:47:12:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:47:12:     [35mid[39m: 8816795596
+2026-05-19T11:47:13: [14:47:13] [32mINFO[39m (22533): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:47:13: [14:47:13] [32mINFO[39m (22533): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:47:13: [14:47:13] [32mINFO[39m (22533): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:47:36: [14:47:36] [31mERROR[39m (22533): [36m❌ Fatal[39m
+2026-05-19T11:47:36:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:47:36: ◇ injected env (17) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-05-19T11:47:36: [14:47:36] [32mINFO[39m (22556): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:47:36: [14:47:36] [32mINFO[39m (22556): [36m🔒 Database[39m
+2026-05-19T11:47:36:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:47:37: [14:47:37] [32mINFO[39m (22556): [36m✅ Bot kimliği[39m
+2026-05-19T11:47:37:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:47:37:     [35mid[39m: 8816795596
+2026-05-19T11:47:37: [14:47:37] [32mINFO[39m (22556): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:47:37: [14:47:37] [32mINFO[39m (22556): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:47:38: [14:47:38] [32mINFO[39m (22556): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:47:53: [14:47:53] [31mERROR[39m (22556): [36m❌ Fatal[39m
+2026-05-19T11:47:53:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:47:53: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T11:47:53: [14:47:53] [32mINFO[39m (22579): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:47:53: [14:47:53] [32mINFO[39m (22579): [36m🔒 Database[39m
+2026-05-19T11:47:53:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:47:54: [14:47:54] [32mINFO[39m (22579): [36m✅ Bot kimliği[39m
+2026-05-19T11:47:54:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:47:54:     [35mid[39m: 8816795596
+2026-05-19T11:47:54: [14:47:54] [32mINFO[39m (22579): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:47:54: [14:47:54] [32mINFO[39m (22579): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:47:55: [14:47:55] [32mINFO[39m (22579): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:48:19: [14:48:19] [32mINFO[39m (22579):
+2026-05-19T11:48:19:     [35mdeus_user_id[39m: 8860523804
+2026-05-19T11:48:19:     [35mdeus_message[39m: "/meme_maker"
+2026-05-19T11:48:19:     [35mdeus_chat_id[39m: 8860523804
+2026-05-19T11:48:21: [14:48:21] [31mERROR[39m (22579): [36m❌ Fatal[39m
+2026-05-19T11:48:21:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:48:21: ◇ injected env (17) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-05-19T11:48:21: [14:48:21] [32mINFO[39m (22590): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:48:21: [14:48:21] [32mINFO[39m (22590): [36m🔒 Database[39m
+2026-05-19T11:48:21:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:48:22: [14:48:22] [32mINFO[39m (22590): [36m✅ Bot kimliği[39m
+2026-05-19T11:48:22:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:48:22:     [35mid[39m: 8816795596
+2026-05-19T11:48:22: [14:48:22] [32mINFO[39m (22590): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:48:22: [14:48:22] [32mINFO[39m (22590): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:48:23: [14:48:23] [32mINFO[39m (22590): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:48:43: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T11:48:43: [14:48:43] [32mINFO[39m (22614): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:48:43: [14:48:43] [32mINFO[39m (22614): [36m🔒 Database[39m
+2026-05-19T11:48:43:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:48:43: [14:48:43] [32mINFO[39m (22614): [36m✅ Bot kimliği[39m
+2026-05-19T11:48:43:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:48:43:     [35mid[39m: 8816795596
+2026-05-19T11:48:44: [14:48:44] [32mINFO[39m (22614): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:48:44: [14:48:44] [32mINFO[39m (22614): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:48:45: [14:48:45] [32mINFO[39m (22614): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:48:45: [14:48:45] [32mINFO[39m (22614): [36m🛑 Kapatılıyor...[39m
+2026-05-19T11:48:50: ◇ injected env (17) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-05-19T11:48:50: [14:48:50] [32mINFO[39m (22631): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:48:50: [14:48:50] [32mINFO[39m (22631): [36m🔒 Database[39m
+2026-05-19T11:48:50:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:48:51: [14:48:51] [32mINFO[39m (22631): [36m✅ Bot kimliği[39m
+2026-05-19T11:48:51:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:48:51:     [35mid[39m: 8816795596
+2026-05-19T11:48:51: [14:48:51] [32mINFO[39m (22631): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:48:51: [14:48:51] [32mINFO[39m (22631): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:48:52: [14:48:52] [32mINFO[39m (22631): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:49:27: [14:49:27] [31mERROR[39m (22631): [36m❌ Fatal[39m
+2026-05-19T11:49:27:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:49:27: ◇ injected env (17) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-05-19T11:49:27: [14:49:27] [32mINFO[39m (22663): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:49:27: [14:49:27] [32mINFO[39m (22663): [36m🔒 Database[39m
+2026-05-19T11:49:27:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:49:27: [14:49:27] [32mINFO[39m (22663): [36m✅ Bot kimliği[39m
+2026-05-19T11:49:27:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:49:27:     [35mid[39m: 8816795596
+2026-05-19T11:49:28: [14:49:28] [32mINFO[39m (22663): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:49:28: [14:49:28] [32mINFO[39m (22663): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:49:29: [14:49:29] [32mINFO[39m (22663): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:50:54: [14:50:54] [31mERROR[39m (22663): [36m❌ Fatal[39m
+2026-05-19T11:50:54:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:50:54: ◇ injected env (17) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-05-19T11:50:54: [14:50:54] [32mINFO[39m (22692): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:50:54: [14:50:54] [32mINFO[39m (22692): [36m🔒 Database[39m
+2026-05-19T11:50:54:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:50:55: [14:50:55] [32mINFO[39m (22692): [36m✅ Bot kimliği[39m
+2026-05-19T11:50:55:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:50:55:     [35mid[39m: 8816795596
+2026-05-19T11:50:55: [14:50:55] [32mINFO[39m (22692): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:50:55: [14:50:55] [32mINFO[39m (22692): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:50:56: [14:50:56] [32mINFO[39m (22692): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:51:06: [14:51:06] [31mERROR[39m (22692): [36m❌ Fatal[39m
+2026-05-19T11:51:06:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:51:06: ◇ injected env (17) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-05-19T11:51:06: [14:51:06] [32mINFO[39m (22696): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:51:06: [14:51:06] [32mINFO[39m (22696): [36m🔒 Database[39m
+2026-05-19T11:51:06:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:51:07: [14:51:07] [32mINFO[39m (22696): [36m✅ Bot kimliği[39m
+2026-05-19T11:51:07:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:51:07:     [35mid[39m: 8816795596
+2026-05-19T11:51:07: [14:51:07] [32mINFO[39m (22696): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:51:07: [14:51:07] [32mINFO[39m (22696): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:51:08: [14:51:08] [32mINFO[39m (22696): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:51:23: [14:51:23] [31mERROR[39m (22696): [36m❌ Fatal[39m
+2026-05-19T11:51:23:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:51:24: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T11:51:24: [14:51:24] [32mINFO[39m (22705): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:51:24: [14:51:24] [32mINFO[39m (22705): [36m🔒 Database[39m
+2026-05-19T11:51:24:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:51:24: [14:51:24] [32mINFO[39m (22705): [36m✅ Bot kimliği[39m
+2026-05-19T11:51:24:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:51:24:     [35mid[39m: 8816795596
+2026-05-19T11:51:24: [14:51:24] [32mINFO[39m (22705): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:51:24: [14:51:24] [32mINFO[39m (22705): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:51:25: [14:51:25] [32mINFO[39m (22705): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:51:51: [14:51:51] [31mERROR[39m (22705): [36m❌ Fatal[39m
+2026-05-19T11:51:51:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:51:51: ◇ injected env (17) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-05-19T11:51:51: [14:51:51] [32mINFO[39m (22716): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:51:51: [14:51:51] [32mINFO[39m (22716): [36m🔒 Database[39m
+2026-05-19T11:51:51:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:51:52: [14:51:52] [32mINFO[39m (22716): [36m✅ Bot kimliği[39m
+2026-05-19T11:51:52:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:51:52:     [35mid[39m: 8816795596
+2026-05-19T11:51:53: [14:51:52] [32mINFO[39m (22716): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:51:53: [14:51:52] [32mINFO[39m (22716): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:51:53: [14:51:53] [32mINFO[39m (22716): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:52:39: [14:52:39] [31mERROR[39m (22716): [36m❌ Fatal[39m
+2026-05-19T11:52:39:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:52:40: ◇ injected env (17) from .env // tip: ⌘ override existing { override: true }
+2026-05-19T11:52:40: [14:52:40] [32mINFO[39m (22729): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:52:40: [14:52:40] [32mINFO[39m (22729): [36m🔒 Database[39m
+2026-05-19T11:52:40:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:52:41: [14:52:41] [32mINFO[39m (22729): [36m✅ Bot kimliği[39m
+2026-05-19T11:52:41:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:52:41:     [35mid[39m: 8816795596
+2026-05-19T11:52:41: [14:52:41] [32mINFO[39m (22729): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:52:41: [14:52:41] [32mINFO[39m (22729): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:52:42: [14:52:42] [32mINFO[39m (22729): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:53:38: [14:53:38] [32mINFO[39m (22729):
+2026-05-19T11:53:38:     [35mdeus_user_id[39m: 8860523804
+2026-05-19T11:53:38:     [35mdeus_message[39m: "durum ne"
+2026-05-19T11:53:38:     [35mdeus_chat_id[39m: 8860523804
+2026-05-19T11:54:13: [14:54:13] [31mERROR[39m (22729): [36m❌ Fatal[39m
+2026-05-19T11:54:13:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:54:13: ◇ injected env (17) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-05-19T11:54:14: [14:54:14] [32mINFO[39m (22763): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:54:14: [14:54:14] [32mINFO[39m (22763): [36m🔒 Database[39m
+2026-05-19T11:54:14:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:54:14: [14:54:14] [32mINFO[39m (22763): [36m✅ Bot kimliği[39m
+2026-05-19T11:54:14:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:54:14:     [35mid[39m: 8816795596
+2026-05-19T11:54:15: [14:54:15] [32mINFO[39m (22763): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:54:15: [14:54:15] [32mINFO[39m (22763): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:54:15: [14:54:15] [32mINFO[39m (22763): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T11:57:13: [14:57:13] [31mERROR[39m (22763): [36m❌ Fatal[39m
+2026-05-19T11:57:13:     err: "Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)"
+2026-05-19T11:57:13: ◇ injected env (17) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-05-19T11:57:13: [14:57:13] [32mINFO[39m (22829): [36m🤖 DEUS Polling Bot başlatılıyor (DEUS-ONLY MODE)...[39m
+2026-05-19T11:57:13: [14:57:13] [32mINFO[39m (22829): [36m🔒 Database[39m
+2026-05-19T11:57:13:     [35murl[39m: "https://ezmamahyyvqppjlzqazb.supabase.co"
+2026-05-19T11:57:14: [14:57:14] [32mINFO[39m (22829): [36m✅ Bot kimliği[39m
+2026-05-19T11:57:14:     [35musername[39m: "machinaofdeusbot"
+2026-05-19T11:57:14:     [35mid[39m: 8816795596
+2026-05-19T11:57:15: [14:57:15] [32mINFO[39m (22829): [36m🗑️  Webhook temizlendi (eğer varsa)[39m
+2026-05-19T11:57:15: [14:57:15] [32mINFO[39m (22829): [36m📡 Long-polling başlıyor... (Ctrl+C ile durdur)[39m
+2026-05-19T11:57:15: [14:57:15] [32mINFO[39m (22829): [36m🟢 @machinaofdeusbot aktif | DEUS-ONLY | Polling MODE[39m
+2026-05-19T12:01:46: [15:01:46] [32mINFO[39m (22829): [36m🛑 Kapatılıyor...[39m
+2026-05-19T12:08:10: {"level":30,"time":1779203290166,"pid":23169,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-19T12:08:10: {"level":30,"time":1779203290172,"pid":23169,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-19T12:08:11: {"level":40,"time":1779203291146,"pid":23169,"hostname":"192.168.0.41","error":{"code":"PGRST205","details":null,"hint":null,"message":"Could not find the table 'public.sites' in the schema cache"},"msg":"Supabase uyarı — tablolar henüz oluşturulmamış olabilir"}
+2026-05-19T12:08:11: {"level":30,"time":1779203291814,"pid":23169,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-19T12:09:25: {"level":30,"time":1779203365195,"pid":23169,"hostname":"192.168.0.41","msg":"Kapatılıyor..."}
+2026-05-19T12:09:25: {"level":30,"time":1779203365706,"pid":23236,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-19T12:09:25: {"level":30,"time":1779203365711,"pid":23236,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-19T12:09:26: {"level":30,"time":1779203366301,"pid":23236,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-19T12:09:27: {"level":30,"time":1779203367207,"pid":23236,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20T12:36:09: {"level":30,"time":1779291369352,"pid":23236,"hostname":"192.168.0.41","msg":"Kapatılıyor..."}
+2026-05-20T12:36:10: {"level":30,"time":1779291370291,"pid":59558,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20T12:36:10: {"level":30,"time":1779291370297,"pid":59558,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20T12:36:11: {"level":30,"time":1779291371170,"pid":59558,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20T12:36:11: {"level":30,"time":1779291371841,"pid":59558,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20T15:43:57: {"level":30,"time":1779302637398,"pid":59558,"hostname":"192.168.0.41","msg":"Kapatılıyor..."}
+2026-05-20T15:43:58: {"level":30,"time":1779302638456,"pid":64583,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20T15:43:58: {"level":30,"time":1779302638463,"pid":64583,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20T15:43:59: {"level":30,"time":1779302639419,"pid":64583,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20T15:44:00: {"level":30,"time":1779302640281,"pid":64583,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:03 -03:00: {"level":30,"time":1779302643449,"pid":64620,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:03 -03:00: {"level":30,"time":1779302643455,"pid":64620,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:04 -03:00: {"level":30,"time":1779302644038,"pid":64620,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:04 -03:00: {"level":30,"time":1779302644714,"pid":64620,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:04 -03:00: {"level":50,"time":1779302644938,"pid":64583,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:05 -03:00: {"level":30,"time":1779302645231,"pid":64643,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:05 -03:00: {"level":30,"time":1779302645237,"pid":64643,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:06 -03:00: {"level":30,"time":1779302646123,"pid":64643,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:06 -03:00: {"level":30,"time":1779302646782,"pid":64643,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:10 -03:00: {"level":50,"time":1779302650008,"pid":64620,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:10 -03:00: {"level":30,"time":1779302650353,"pid":64654,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:10 -03:00: {"level":30,"time":1779302650359,"pid":64654,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:11 -03:00: {"level":30,"time":1779302651372,"pid":64654,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:12 -03:00: {"level":30,"time":1779302652038,"pid":64654,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:12 -03:00: {"level":50,"time":1779302652264,"pid":64643,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:12 -03:00: {"level":30,"time":1779302652680,"pid":64655,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:12 -03:00: {"level":30,"time":1779302652686,"pid":64655,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:13 -03:00: {"level":30,"time":1779302653620,"pid":64655,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:14 -03:00: {"level":30,"time":1779302654363,"pid":64655,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:17 -03:00: {"level":50,"time":1779302657594,"pid":64654,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:18 -03:00: {"level":30,"time":1779302658122,"pid":64658,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:18 -03:00: {"level":30,"time":1779302658128,"pid":64658,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:18 -03:00: {"level":30,"time":1779302658970,"pid":64658,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:19 -03:00: {"level":30,"time":1779302659631,"pid":64658,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:19 -03:00: {"level":50,"time":1779302659850,"pid":64655,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:20 -03:00: {"level":30,"time":1779302660551,"pid":64659,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:20 -03:00: {"level":30,"time":1779302660557,"pid":64659,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:20 -03:00: {"level":30,"time":1779302660952,"pid":64659,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:21 -03:00: {"level":30,"time":1779302661701,"pid":64659,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:24 -03:00: {"level":50,"time":1779302664921,"pid":64658,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:25 -03:00: {"level":30,"time":1779302665866,"pid":64660,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:25 -03:00: {"level":30,"time":1779302665872,"pid":64660,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:26 -03:00: {"level":30,"time":1779302666726,"pid":64660,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:27 -03:00: {"level":30,"time":1779302667476,"pid":64660,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:27 -03:00: {"level":50,"time":1779302667689,"pid":64659,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:29 -03:00: {"level":30,"time":1779302669018,"pid":64667,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:29 -03:00: {"level":30,"time":1779302669024,"pid":64667,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:29 -03:00: {"level":30,"time":1779302669982,"pid":64667,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:30 -03:00: {"level":30,"time":1779302670631,"pid":64667,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:30 -03:00: {"level":50,"time":1779302670853,"pid":64660,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:32 -03:00: {"level":30,"time":1779302672747,"pid":64670,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:32 -03:00: {"level":30,"time":1779302672752,"pid":64670,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:33 -03:00: {"level":30,"time":1779302673097,"pid":64670,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:33 -03:00: {"level":30,"time":1779302673787,"pid":64670,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:34 -03:00: {"level":50,"time":1779302674003,"pid":64667,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
+2026-05-20 15:44:36 -03:00: {"level":30,"time":1779302676750,"pid":64673,"hostname":"192.168.0.41","msg":"DEUS başlatılıyor..."}
+2026-05-20 15:44:36 -03:00: {"level":30,"time":1779302676756,"pid":64673,"hostname":"192.168.0.41","msg":"Redis bağlantısı kuruldu"}
+2026-05-20 15:44:37 -03:00: {"level":30,"time":1779302677598,"pid":64673,"hostname":"192.168.0.41","msg":"Supabase bağlantısı kuruldu"}
+2026-05-20 15:44:38 -03:00: {"level":30,"time":1779302678252,"pid":64673,"hostname":"192.168.0.41","msg":"DEUS aktif → @DEUSMACHINAOps_Bot"}
+2026-05-20 15:44:38 -03:00: {"level":50,"time":1779302678492,"pid":64670,"hostname":"192.168.0.41","err":{"type":"GrammyError","message":"Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)","stack":"GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)\n    at toGrammyError (/Users/exmachina/deus/node_modules/grammy/out/core/error.js:47:12)\n    at ApiClient.callApi (/Users/exmachina/deus/node_modules/grammy/out/core/client.js:100:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Bot.fetchUpdates (/Users/exmachina/deus/node_modules/grammy/out/bot.js:425:27)\n    at async Bot.loop (/Users/exmachina/deus/node_modules/grammy/out/bot.js:396:33)\n    at async Bot.start (/Users/exmachina/deus/node_modules/grammy/out/bot.js:317:9)\n    at async main (/Users/exmachina/deus/src/index.ts:199:3)","method":"getUpdates","payload":{"offset":1,"timeout":30,"allowed_updates":[]},"ok":false,"name":"GrammyError","error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running","parameters":{}},"msg":"Başlatma hatası"}
