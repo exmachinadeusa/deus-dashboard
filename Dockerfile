@@ -2,12 +2,13 @@ FROM node:22-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+# dashboard-server.js sadece built-in Node modülleri kullanıyor
+# (http, path, fs, url) — npm install gerekmez
+RUN echo '{"name":"deus-dashboard","version":"1.0.0","type":"module"}' > package.json
+
 COPY dashboard-server.js ./
 COPY deus_dashboard.html ./
 COPY deus_mission_control.html ./
-
-RUN npm install --omit=dev
 
 EXPOSE 8080
 
