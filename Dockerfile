@@ -7,7 +7,7 @@ COPY dashboard-server.js ./
 COPY deus_dashboard.html ./
 COPY deus_mission_control.html ./
 
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
 EXPOSE 8080
 
