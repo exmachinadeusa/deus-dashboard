@@ -1,0 +1,29 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-pages:
+    name: Deploy Static Dashboard to CF Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build static dist
+        run: |
+          mkdir -p dist
+          cp deus_dashboard.html dist/index.html
+          cp deus_mission_control.html dist/mission-control.html
+          # Create simple router
+          cat > dist/_redirects << 'EOF'
+          /mission-control /mission-control.html 200
+          /* /index.html 200
+          EOF
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: pages deploy dist --project-name=deus-dashboard --branch=main

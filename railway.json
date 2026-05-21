@@ -1,11 +1,13 @@
 {
   "$schema": "https://railway.schema.json",
   "build": {
-    "builder": "dockerfile",
-    "buildCommand": "npm install"
+    "builder": "DOCKERFILE"
   },
   "deploy": {
-    "restartPolicyMaxRetries": 5,
-    "startCommand": "node dashboard-server.js"
+    "startCommand": "node dashboard-server.js",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 10,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 5
   }
 }
